@@ -1,0 +1,7 @@
+id = "deadleaf-themes"
+name = "deadleaf themes"
+version = "0.0.1"
+schema_version = 1
+authors = ["Abdelrahman Habib <abdurrahman.habib.dev@proton.me"]
+description = "Light and Dark Themes for ZED IDE"
+repository = "https://github.com/Abdelrahman-habib/zed-theme-deadleaf"
