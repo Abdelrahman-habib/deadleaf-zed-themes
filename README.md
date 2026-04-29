@@ -1,4 +1,4 @@
-# Deadleaf Themes
+# Deadleaf Theme
 
 A collection of 41+ carefully crafted light and dark themes for Zed IDE.
 
