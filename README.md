@@ -1,6 +1,7 @@
 # Deadleaf Theme
 
-A collection of 41+ carefully crafted light and dark themes for Zed IDE.
+A collection of 41 carefully crafted light and dark themes for Zed IDE.
+Every theme ships in two variants — the calm base look and a **raised** look with more pronounced controls — for **82 themes** in total.
 
 ## Sample Theme Previews
 
@@ -27,20 +28,20 @@ A collection of 41+ carefully crafted light and dark themes for Zed IDE.
 
 ## Themes
 
-### Dark Themes (21)
+### Dark Themes (26)
 
 | Theme | Surface | Ink | Accent |
 |-------|----------|------|--------|
-| Codex Dracula | `#282a36` | `#f8f8f2` | `#ff79c6` |
-| Codex Absolutely | `#2d2d2b` | `#f9f9f7` | `#cc7d5e` |
-| Codex Ayu | `#0b0e14` | `#bfbdb6` | `#e6b450` |
-| Codex Catppuccin | `#1e1e2e` | `#cdd6f4` | `#cba6f7` |
-| Codex Codex | `#111111` | `#fcfcfc` | `#0169cc` |
-| Codex Everforest | `#2d353b` | `#d3c6aa` | `#a7c080` |
-| Codex GitHub | `#0d1117` | `#e6edf3` | `#1f6feb` |
-| Codex Gruvbox | `#282828` | `#ebdbb2` | `#458588` |
-| Codex Linear | `#0f0f11` | `#e3e4e6` | `#606acc` |
-| Codex Lobster | `#111827` | `#e4e4e7` | `#ff5c5c` |
+| Dracula | `#282a36` | `#f8f8f2` | `#ff79c6` |
+| Absolutely | `#2d2d2b` | `#f9f9f7` | `#cc7d5e` |
+| Ayu | `#0b0e14` | `#bfbdb6` | `#e6b450` |
+| Catppuccin | `#1e1e2e` | `#cdd6f4` | `#cba6f7` |
+| Codex | `#111111` | `#fcfcfc` | `#0169cc` |
+| Everforest | `#2d353b` | `#d3c6aa` | `#a7c080` |
+| GitHub | `#0d1117` | `#e6edf3` | `#1f6feb` |
+| Gruvbox | `#282828` | `#ebdbb2` | `#458588` |
+| Linear | `#0f0f11` | `#e3e4e6` | `#606acc` |
+| Lobster | `#111827` | `#e4e4e7` | `#ff5c5c` |
 | Material | `#212121` | `#eeffff` | `#80cbc4` |
 | Matrix | `#040805` | `#b8ffca` | `#1eff5a` |
 | Monokai | `#272822` | `#f8f8f2` | `#99947c` |
@@ -58,7 +59,7 @@ A collection of 41+ carefully crafted light and dark themes for Zed IDE.
 | Vercel | `#000000` | `#ededed` | `#006efe` |
 | VS Code Plus | `#1e1e1e` | `#d4d4d4` | `#007acc` |
 
-### Light Themes (13)
+### Light Themes (15)
 
 | Theme | Surface | Ink | Accent |
 |-------|----------|------|--------|
@@ -78,6 +79,15 @@ A collection of 41+ carefully crafted light and dark themes for Zed IDE.
 | Vercel Light | `#ffffff` | `#171717` | `#006aff` |
 | VS Code Plus Light | `#ffffff` | `#000000` | `#007acc` |
 
+## Variants
+
+Each theme exists twice:
+
+- **Base** (`deadleaf dracula dark`) — the calm, original look: subtle controls, flat buttons, and visible pane borders.
+- **Raised** (`deadleaf dracula dark raised`) — the same palette with the UI lifted: buttons and menu-bar items sit on their own background, the title bar / tab strip step down in tone, so controls read as controls.
+
+Syntax colors are identical between the two variants.
+
 ## Installation
 
 ### From Zed Extensions
@@ -94,10 +104,12 @@ A collection of 41+ carefully crafted light and dark themes for Zed IDE.
 
 ## Features
 
-- **41 themes** covering popular dark and light variants
+- **41 themes × 2 variants** — 82 themes covering popular dark and light palettes
 - **Systematic color derivation** - all colors derived from core palette (surface, ink, accent, semanticColors)
+- **Readable syntax palette** - five hue families (keyword, string, type, function, constant) chosen from each theme's own colors, always tellable apart; no error-red code, and field/import names get a soft accent tint instead of flat white or red
+- **Visible borders & distinct buttons** - pane borders and button backgrounds derived from each theme's own surface
 - **Semantic token support** - enhanced syntax highlighting for Rust (rust-analyzer) and other languages
-- **Complete UI coverage** - 149+ style keys per theme
+- **Complete UI coverage** - 150 style keys per theme
 - **ANSI terminal colors** - derived from theme palette for consistent terminal experience
 
 ## Semantic Tokens

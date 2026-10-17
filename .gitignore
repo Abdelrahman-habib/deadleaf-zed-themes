@@ -2,3 +2,9 @@
 .idea/
 .agents/
 tests/
+
+# local one-off fix scripts (contain machine-specific paths)
+fix-*.ps1
+make-raised-variants.ps1
+gen-preview.ps1
+preview.html
